@@ -1,0 +1,10 @@
+os: osx
+osx_image: xcode10.2
+language: swift
+xcode_workspace: Challenge.xcworkspace
+xcode_scheme: Challenge
+xcode_sdk: iphonesimulator12.2
+
+before_install:
+  - pod repo update
+  
